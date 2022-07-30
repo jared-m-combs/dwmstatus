@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dwmstatus"
+version = "1.0.0"
+description = "Simple DWM status bar."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+keywords = ["dwm"]
+authors = [
+  {name = "Jared Combs", email = "jared@logicvacuum.com"}
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+  "pytest >= 7.1.0",
+]
+
+[project.urls]
+repository = "https://github.com/jared-m-combs/dwmstatus"
+
+[project.scripts]
+dwmstatus = "dwmstatus:main"
