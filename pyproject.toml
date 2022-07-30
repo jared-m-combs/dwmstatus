@@ -15,11 +15,6 @@ authors = [
 ]
 dependencies = []
 
-[project.optional-dependencies]
-test = [
-  "pytest >= 7.1.0",
-]
-
 [project.urls]
 repository = "https://github.com/jared-m-combs/dwmstatus"
 
