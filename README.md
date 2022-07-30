@@ -36,7 +36,7 @@ This project has a number of dependencies on system packages. Ensure the followi
 
 For example, in Arch Linux:
 ```
-sudo pacman -Syu playerctl pactl vmstat
+sudo pacman -Syu xorg-xsetroot playerctl pactl vmstat
 ```
 
 Generators
